@@ -1,0 +1,20 @@
+{
+  "name": "bnb-wallet-monitor",
+  "version": "1.0.0",
+  "description": "Monitor BNB Testnet wallet for USDT/BNB transactions",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": ["bnb", "testnet", "usdt", "wallet", "monitor", "blockchain"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ethers": "^6.8.1",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
